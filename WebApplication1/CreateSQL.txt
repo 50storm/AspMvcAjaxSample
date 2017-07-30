@@ -1,0 +1,10 @@
+create table [dbo].[Members] (
+  Id int identity not null
+  , LastName nvarchar(max) not null
+  , FirstName nvarchar(max) not null
+  , Email nvarchar(max) not null
+  , Birth datetime not null
+  , Married bit not null
+  , Memo nvarchar(max)
+  , primary key (Id)
+);
